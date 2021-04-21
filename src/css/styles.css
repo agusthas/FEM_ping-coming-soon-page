@@ -1,0 +1,11 @@
+.is-invalid {
+  @apply border-red-light !important;
+}
+
+.is-invalid + * {
+  @apply h-8 opacity-100 !important;
+}
+
+.c-shadow {
+  box-shadow: 0 9px 9px rgba(194, 211, 255, 1);
+}
